@@ -11,7 +11,8 @@
 <body>
     <hr>
     <a href="index.html">HOME</a> |
-    <a href="contact.html">CONTACT</a>
+    <a href="contact.html">CONTACT</a> |
+    <a href="galary.html" target="blank">GALARY</a>
     <hr>
     <table cellspacing="20  ">
         <tr>
@@ -22,7 +23,7 @@
                 <h1>Natnael Alemayehu</h1>
                 <h3>Student, Addis Ababa istitute of Technology</h3>
                 <p>Hi, there, </p>
-                <p>I am Natnael Alemayehu, I am expert <strong>Java</strong> Developer who has been working on java since <em> 5</em> years. I am passionate about working in different types pf prpgramming languages. </p>
+                <p>I am Natnael Alemayehu, I am expert <strong>Java</strong> Developer who has been working on java for <em> 5</em> years. I am passionate about working in different types pf prpgramming languages. </p>
             </td>
         </tr>
     </table>
@@ -53,20 +54,36 @@
                 <h1>Contact us...</h1>
 
                 <table>
-                    <form action="mailto:se.natnael.alemayehu@gmail.com" enctype="utf-8" method="POST"></form>
-                    <tr>
-                        <td> <label for="fName">First Name: </label></td>
-                        <td> <input type="text" name="First Name" id="fName"> <br></td>
-                    </tr>
-                    <td><label for="sName">Sure Name: </label></td>
-                    <td><input type="text" name="First Name" id="sName"> <br></td>
-                    <tr>
-                        <td><label for="emailType">Email: </label></td>
-                        <td><input type="email" name="email" id="emailType"></td>
-                    </tr>
-                    <tr>
-                        <td>where are you from: </td>
-                        <td> <select name="country" id="">
+                    <form>
+                        <tr>
+                            <td> <label for="fName">First Name: </label></td>
+                            <td> <input type="text" name="First Name" id="fName" placeholder="First Name" pattern="[A-z]{3,10}" title="3 to 10 characters" required> <br></td>
+                        </tr>
+                        <td><label for="sName">Sure Name: </label></td>
+                        <td><input type="text" name="First Name" placeholder="Sure Name" id="sName" pattern="[A-z]{3,10}" title="3 to 10 characters" required> <br></td>
+                        <tr>
+                            <td><label for="emailType">Email: </label></td>
+                            <td><input type="email" name="email" placeholder="something@example.com" id="emailType" pattern="/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="tel">Phone Number: </label></td>
+                            <td>
+                                <input name="tel1" type="tel" pattern="[0-9]{3}" placeholder="+251" aria-label="3-digit area code" size="2" placeholder="+251" />-
+                                <input name="tel2" type="tel" pattern="[0-9]{3}" placeholder="9##" aria-label="3-digit prefix" size="2" />
+                                <input name="tel3" type="tel" pattern="[0-9]{6}" placeholder="######" aria-label="6-digit number" size="4" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="date">Date: </label></td>
+                            <td><input type="datetime-local" name="datetime" id="datetime"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="color">Choose color:</label></td>
+                            <td><input type="color" name="color" id="color"></td>
+                        </tr>
+                        <tr>
+                            <td>where are you from: </td>
+                            <td> <select name="country" id="" required>
                             <option value="af">Africa</option>
                             <option value="">Asia</option>
                             <option value="au">Eutope</option>
@@ -75,14 +92,14 @@
                 </table>
                 
 
-        </select> Say what you want <br><textarea name="" id="" cols="30" rows="10"></textarea> <br>
+        </select>What do you want to say? <br><textarea name="" id="" cols="30" rows="10"></textarea> <br>
 
-                            <input type="submit" value="Submit">
-                            <br><br><br>
-                            <br>
+                                <input type="submit" value="Submit">
+                                <br><br><br>
+                                <br>
 
-                            </form>
-                        </td>
+                    </form>
+                    </td>
                     </tr>
                 </table>
                 <footer align="center">
