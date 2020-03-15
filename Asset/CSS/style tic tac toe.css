@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px;
+}
+
+table {
+    margin: 5px auto;
+}
+
+td {
+    width: 150px;
+    height: 150px;
+}
+
+.one {
+    border-right: 4px solid rgb(00, 00, 00);
+    border-bottom: 4px solid rgb(00, 00, 00);
+}
+
+.two {
+    border-bottom: 4px solid rgb(00, 00, 00);
+}
+
+.three {
+    border-left: 4px solid rgb(00, 00, 00);
+    border-bottom: 4px solid rgb(00, 00, 00);
+}
+
+.four {
+    border-right: 4px solid rgb(00, 00, 00);
+}
+
+.six {
+    border-left: 4px solid rgb(00, 00, 00);
+}
+
+.seven {
+    border-top: 4px solid rgb(00, 00, 00);
+    border-right: 4px solid rgb(00, 00, 00);
+}
+
+.eight {
+    border-top: 4px solid rgb(00, 00, 00);
+}
+
+.nine {
+    border-top: 4px solid rgb(00, 00, 00);
+    border-left: 4px solid rgb(00, 00, 00);
+}
