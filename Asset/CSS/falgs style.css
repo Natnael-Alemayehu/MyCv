@@ -4,7 +4,12 @@
 }
 
 body {
-    background-color: lightgray;
+    background-color: rgb(126, 122, 122);
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
 }
 
 td {
@@ -13,7 +18,8 @@ td {
 }
 
 table {
-    margin: 5px auto;
+    margin: 25px auto;
+    padding: 10px;
 }
 
 
@@ -105,4 +111,214 @@ table {
 }
 
 
-/* Flag Five --> Gabon */
+/* Flag Five --> Mali */
+
+.flagFive {
+    position: relative;
+    display: inline-block;
+}
+
+.flagFive td {
+    width: 65px;
+    height: 125px;
+}
+
+.flagFiveOne {
+    background-color: green;
+}
+
+.flagFiveTwo {
+    background-color: yellow;
+}
+
+.flagFiveThree {
+    background-color: red;
+}
+
+
+/* Flag Six --> Madagascar */
+
+.flagSix {
+    position: relative;
+    right: 1px;
+    display: inline-block;
+}
+
+.flagSix td {
+    width: 61px;
+    height: 61px;
+}
+
+.flagSixOne1 {
+    background-color: white;
+}
+
+.flagSixOne2 {
+    background-color: red;
+}
+
+.flagSixOne3 {
+    background-color: green;
+}
+
+
+/* Flag Seven --> Armenia */
+
+.flagSeven {
+    position: relative;
+    display: inline-block;
+}
+
+.flagSevenOne {
+    background-color: red;
+}
+
+.flagSevenTwo {
+    background-color: blue;
+}
+
+.flagSevenThree {
+    background-color: orangered;
+}
+
+
+/* Flag Eight --> Mauritius */
+
+.flagEight {
+    position: relative;
+    display: inline-block;
+}
+
+.flagEight td {
+    width: 199px;
+    height: 30px;
+}
+
+.flagEightOne {
+    background-color: red;
+}
+
+.flagEightTwo {
+    background-color: blue;
+}
+
+.flagEightThree {
+    background-color: yellow;
+}
+
+.flagEightFour {
+    background-color: green;
+}
+
+
+/* Flag Nine --> Netherlands */
+
+.flagNine {
+    position: relative;
+    display: inline-block;
+}
+
+.flagNineOne {
+    background-color: red;
+}
+
+.flagNineTwo {
+    background-color: white;
+}
+
+.flagNineThree {
+    background-color: blue;
+}
+
+
+/* Flag Ten --> Nigeria */
+
+.flagTen {
+    position: relative;
+    /* left: 100px; */
+    display: inline-block;
+}
+
+.flagTen td {
+    width: 65px;
+    height: 125px;
+}
+
+.flagTenOne {
+    background-color: green;
+}
+
+.flagTenTwo {
+    background-color: white;
+}
+
+.flagTenThree {
+    background-color: green;
+}
+
+
+/* Flag Eleven --> Bulgaria */
+
+.flagEleven {
+    position: relative;
+    display: inline-block;
+}
+
+.flagElevenOne {
+    background-color: white;
+}
+
+.flagElevenTwo {
+    background-color: green;
+}
+
+.flagElevenThree {
+    background-color: red;
+}
+
+
+/* Flag Twelve --> Chad */
+
+.flagTwelve {
+    position: relative;
+    /* left: 100px; */
+    display: inline-block;
+}
+
+.flagTwelve td {
+    width: 65px;
+    height: 125px;
+}
+
+.flagTwelveOne {
+    background-color: blue;
+}
+
+.flagTwelveTwo {
+    background-color: yellow;
+}
+
+.flagTwelveThree {
+    background-color: red;
+}
+
+
+/* Flag thirteen --> Russia */
+
+.flagThirteen {
+    position: relative;
+    right: 1px;
+    display: inline-block;
+}
+
+.flagThirteenOne {
+    background-color: white;
+}
+
+.flagThirteenTwo {
+    background-color: blue;
+}
+
+.flagThirteenThree {
+    background-color: red;
+}
