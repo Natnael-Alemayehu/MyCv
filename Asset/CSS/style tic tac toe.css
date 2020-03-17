@@ -52,3 +52,43 @@ td {
     border-top: 4px solid rgb(00, 00, 00);
     border-left: 4px solid rgb(00, 00, 00);
 }
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.ulClass {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.liOne {
+    float: left;
+    border-right: 2px solid #bbb;
+}
+
+.liOne:last-child {
+    border-right: none;
+}
+
+.liOne a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.liOne a:hover {
+    background-color: #111;
+}
+
+nav {
+    width: 100%;
+    margin: 0 auto;
+    list-style: none;
+}

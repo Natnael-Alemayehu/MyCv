@@ -4,12 +4,20 @@
 }
 
 body {
-    background-color: rgb(126, 122, 122);
+    background-color: lightskyblue;
 }
 
 h1 {
     text-align: center;
     text-transform: uppercase;
+}
+
+h3 {
+    text-align: center;
+}
+
+div {
+    border-bottom: 2px dotted rgb(24, 201, 127);
 }
 
 td {
@@ -18,8 +26,8 @@ td {
 }
 
 table {
-    margin: 25px auto;
-    padding: 10px;
+    margin: auto;
+    padding: 9px;
 }
 
 
@@ -70,7 +78,7 @@ table {
 }
 
 
-/* Flag three -->Colombia */
+/* Flag three --> Colombia */
 
 .flagThree {
     position: relative;
@@ -133,32 +141,6 @@ table {
 
 .flagFiveThree {
     background-color: red;
-}
-
-
-/* Flag Six --> Madagascar */
-
-.flagSix {
-    position: relative;
-    right: 1px;
-    display: inline-block;
-}
-
-.flagSix td {
-    width: 61px;
-    height: 61px;
-}
-
-.flagSixOne1 {
-    background-color: white;
-}
-
-.flagSixOne2 {
-    background-color: red;
-}
-
-.flagSixOne3 {
-    background-color: green;
 }
 
 
@@ -277,7 +259,7 @@ table {
 }
 
 
-/* Flag Twelve --> Chad */
+/* Flag Twelve --> Italy */
 
 .flagTwelve {
     position: relative;
@@ -291,11 +273,11 @@ table {
 }
 
 .flagTwelveOne {
-    background-color: blue;
+    background-color: green;
 }
 
 .flagTwelveTwo {
-    background-color: yellow;
+    background-color: white;
 }
 
 .flagTwelveThree {
@@ -321,4 +303,47 @@ table {
 
 .flagThirteenThree {
     background-color: red;
+}
+
+
+/* Navigation Part CSS */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.ulClass {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.liOne {
+    float: left;
+    border-right: 2px solid #bbb;
+}
+
+.liOne:last-child {
+    border-right: none;
+}
+
+.liOne a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.liOne a:hover {
+    background-color: #111;
+}
+
+nav {
+    width: 100%;
+    margin: 0 auto;
+    list-style: none;
 }
