@@ -53,12 +53,12 @@ img {
 }
 
 .words {
-    margin: 40px;
-    padding: 7px;
+    margin: 20px;
+    padding: 2px;
 }
 
 .container {
-    padding: 20px;
+    padding: 50px;
     border-bottom: solid black 1px;
 }
 
@@ -76,6 +76,23 @@ img {
 
 #clear {
     clear: left;
+}
+
+
+/* Style for the map */
+
+.mapouter {
+    display: flex;
+    text-align: right;
+    height: 200px;
+    width: 150px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none!important;
+    height: 200px;
+    width: 150px;
 }
 
 @media screen and (min-width: 500px) {

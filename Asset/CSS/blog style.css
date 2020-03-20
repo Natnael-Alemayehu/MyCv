@@ -1,14 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
 /* Element [Tag] */
 
 body {
-    background-color: rgb(182, 223, 240);
-    margin-top: 50px;
-}
-
-header {
-    position: fixed;
-    top: 0px;
-    width: 100%;
+    background: linear-gradient(45deg, #02401f, #008080);
 }
 
 section {
@@ -50,11 +49,6 @@ nav>ul>li {
 
 /* The style for the navigation */
 
-* {
-    padding: 0;
-    margin: 0;
-}
-
 .ulClass {
     list-style-type: none;
     margin: 0 auto;
@@ -89,6 +83,7 @@ nav {
     width: 100%;
     margin: 0 auto;
     list-style: none;
+    position: relative;
 }
 
 
@@ -113,5 +108,10 @@ ol {
         background-color: #333;
         display: flex;
         justify-content: center;
+    }
+    section {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding: 15px 30px;
+        margin: 20px;
     }
 }
