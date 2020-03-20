@@ -1,3 +1,10 @@
+body {
+    background: linear-gradient(45deg, #02401f, #008080);
+}
+
+
+/* Navigation styling */
+
 .ulClass {
     list-style-type: none;
     margin: 0 auto;
@@ -6,18 +13,11 @@
     background-color: #333;
 }
 
-body {
-    background-color: rgb(182, 223, 240);
-}
 
-.liOne {
-    float: left;
+/* .liOne {
+    justify-content: space-evenly;
     border-right: 2px solid #bbb;
-}
-
-.liOne:last-child {
-    border-right: none;
-}
+} */
 
 .liOne a {
     display: block;
@@ -27,6 +27,11 @@ body {
     text-decoration: none;
 }
 
+
+/* .liOne:last-child {
+    border-right: none;
+} */
+
 .liOne a:hover {
     background-color: #111;
 }
@@ -35,4 +40,61 @@ nav {
     width: 100%;
     margin: 0 auto;
     list-style: none;
+    position: relative;
+    top: -7.8px;
+}
+
+
+/* Floating the text next to the picture */
+
+img {
+    float: left;
+    margin-right: 20px;
+}
+
+.container {
+    padding: 20px;
+    border-bottom: solid black 1px;
+}
+
+.hobbyClass {
+    padding: 2%;
+    border-bottom: solid black 1px;
+}
+
+.experience {
+    border-bottom: solid black 1px;
+    padding-left: 2%;
+}
+
+.foot>a {
+    text-decoration: solid;
+    position: relative;
+    left: 40%;
+    padding: 3px;
+    color: black;
+}
+
+.foot>a:hover {
+    color: rgb(224, 26, 26);
+}
+
+.skills {
+    padding: 2%;
+}
+
+#clear {
+    clear: left;
+}
+
+@media screen and (min-width: 500px) {
+    .ulClass {
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        display: flex;
+        justify-content: center;
+    }
 }

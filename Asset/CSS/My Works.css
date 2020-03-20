@@ -11,14 +11,15 @@
     background-color: #333;
 }
 
-.liOne {
+
+/* .liOne {
     float: left;
     border-right: 2px solid #bbb;
 }
 
 .liOne:last-child {
     border-right: none;
-}
+} */
 
 .liOne a {
     display: block;
@@ -54,10 +55,29 @@ li {
     position: relative;
     font-size: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+}
+
+.ulClassTwo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 body {
     background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px, linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px, linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px, linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px, linear-gradient(90deg, #1b1b1b 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
     background-color: #131313;
     background-size: 20px 20px;
+}
+
+@media screen and (min-width: 500px) {
+    .ulClass {
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        display: flex;
+        justify-content: center;
+    }
 }

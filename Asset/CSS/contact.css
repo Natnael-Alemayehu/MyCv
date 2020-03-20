@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(182, 223, 240);
+    background: linear-gradient(45deg, #02401f, #008080);
 }
 
 .ulClass {
@@ -15,14 +15,15 @@ body {
     background-color: #333;
 }
 
-.liOne {
+
+/* .liOne {
     float: left;
     border-right: 2px solid #bbb;
 }
 
 .liOne:last-child {
     border-right: none;
-}
+} */
 
 .liOne a {
     display: block;
@@ -47,15 +48,44 @@ nav {
 
 img {
     float: left;
-    margin-right: 20px;
+    margin-right: 1%;
     border-bottom: black 1px;
 }
 
 .words {
     margin: 40px;
-    padding: 10px;
+    padding: 7px;
+}
+
+.container {
+    padding: 20px;
+    border-bottom: solid black 1px;
+}
+
+.foot>a {
+    text-decoration: solid;
+    position: relative;
+    left: 40%;
+    padding: 3px;
+    color: black;
+}
+
+.foot>a:hover {
+    color: rgb(224, 26, 26);
 }
 
 #clear {
     clear: left;
+}
+
+@media screen and (min-width: 500px) {
+    .ulClass {
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        display: flex;
+        justify-content: center;
+    }
 }

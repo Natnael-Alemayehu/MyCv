@@ -63,14 +63,15 @@ nav>ul>li {
     background-color: #333;
 }
 
-.liOne {
+
+/* .liOne {
     float: left;
     border-right: 2px solid #bbb;
 }
 
 .liOne:last-child {
     border-right: none;
-}
+} */
 
 .liOne a {
     display: block;
@@ -101,4 +102,16 @@ ol {
 .listClass {
     position: relative;
     left: 2.5em;
+}
+
+@media screen and (min-width: 500px) {
+    .ulClass {
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        display: flex;
+        justify-content: center;
+    }
 }
