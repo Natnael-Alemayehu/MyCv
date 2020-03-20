@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-ul {
+.ulClass {
     list-style-type: none;
     margin: 0 auto;
     padding: 0;
@@ -11,16 +11,16 @@ ul {
     background-color: #333;
 }
 
-li {
+.liOne {
     float: left;
     border-right: 2px solid #bbb;
 }
 
-li:last-child {
+.liOne:last-child {
     border-right: none;
 }
 
-li a {
+.liOne a {
     display: block;
     color: white;
     text-align: center;
@@ -28,7 +28,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+.liOne a:hover {
     background-color: #111;
 }
 
@@ -36,4 +36,28 @@ nav {
     width: 100%;
     margin: 0 auto;
     list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: cyan;
+}
+
+li {
+    display: inline-block;
+}
+
+.liTwo {
+    padding-right: 50px;
+    padding-top: 20px;
+    align-items: center;
+    position: relative;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px, linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px, linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px, linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px, linear-gradient(90deg, #1b1b1b 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+    background-color: #131313;
+    background-size: 20px 20px;
 }

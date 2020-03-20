@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Asset/CSS/style.css">
+    <link rel="icon" href="./Asset/Image/profile.ico">
+    <link rel="stylesheet" href="./Asset/CSS/blog style.css">
     <title>Natnael Alemayehu</title>
 </head>
 
@@ -12,31 +13,45 @@
 
     <header>
         <nav>
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-                <li><a href="galary.html" target="blank">GALARY</a></li>
+            <ul class="ulClass">
+                <li class="liOne"> <a href="./index.html" target="_blank">HOME</a> </li>
+                <li class="liOne"><a href="./galary.html" target="_blank">GALARY</a> </li>
+                <li class="liOne"><a href="./contact.html" target="_blank">CONTACT</a> </li>
+                <li class="liOne"><a href="./blog.html" target="_blank">BLOG</a> </li>
+                <li class="liOne"><a href="./My Works.html" target="_blank">MY WORKS</a> </li>
             </ul>
         </nav>
     </header>
 
-    <!-- BLog -->
+    <!-- Blog -->
     <div id="content">
         <!-- 1 post -->
         <section>
-            <p class="title">My first post</p>
+            <p class="title">Does specifying your font-size matter?</p>
             <article>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt quisquam voluptates fuga, sapiente quod nemo eius, doloribus rerum esse hic, numquam error. Totam sint ducimus laborum consequatur illum nemo accusantium. </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt quisquam voluptates fuga, sapiente quod nemo eius, doloribus rerum esse hic, numquam error. Totam sint ducimus laborum consequatur illum nemo accusantium. </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt quisquam voluptates fuga, sapiente quod nemo eius, doloribus rerum esse hic, numquam error. Totam sint ducimus laborum consequatur illum nemo accusantium. </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt quisquam voluptates fuga, sapiente quod nemo eius, doloribus rerum esse hic, numquam error. Totam sint ducimus laborum consequatur illum nemo accusantium. </p>
+                <p>Font size can be specified in one of the following ways.</p>
+                <ol>
+                    <li>Absolute size or Relative size</li>
+                    <li>Length or Percentile, relative to the parent element’s font size</li>
+                </ol>
+                <p>Xx-small, x-small, small, medium, large, x-large, xx-large, xxx-large are of the Absolute-size keywords based on absolute size. Relative-size keywords. The font will be larger or smaller relative to the parent element's font size, roughly
+                    by the ratio used to separate the absolute-size keywords above. Defining font sizes in px is not accessible, because the user cannot change the font size in some browsers. For example, users with limited vision may wish to set the
+                    font size much larger than the size chosen by a web designer. Avoid using them for font sizes if you wish to create an inclusive design.</p>
+                <p>The other method is the length or the percentile sizing of the elements that are going to be displayed. For most font-relative units (such as em and ex), the font size is relative to the parent element's font size. For font-relative units
+                    that are root-based (such as rem), the font size is relative to the size of the font used by the (root) element. The size of an em value is dynamic. When defining the font-size property, an em is equal to the font size of the element
+                    on which the em is used. If you haven't set the font size anywhere on the page, then it is the browser default, which is often 16px. So, by default 1em = 16px, and 2em = 32px. If you set a font-size of 20px on the body element, then
+                    1em = 20px and 2em = 40px. Note that the value 2 is essentially a multiplier of the current em size. </p>
+                <p>Assuming that the browser's default font-size is 16px, the words would be rendered at 16px, but some words can be rendered at 25.6px by setting the font size to 1.6em which is relative to its parent’s font-size. This is because the inner
+                    font-size is 1.6em which is relative to its parent's font-size, which is in turn relative to its parent's font-size. This is often called <strong>compounding</strong>.</p>
+                <p>Mozilla documentation recommends that for maximize accessibility, it is generally best to use values that are relative to the user's default font size. I personally would recommend the length relative to parent elements because it can
+                    bring us different functionalities for a better user experience. The normal use of the zoom feature can also be used when a user wants a better clarification of the content.</p>
             </article>
-            <p class="date">March 20, 2020: 2:00AM</p>
+            <p class="date">March 20, 2020: 10:19AM</p>
         </section>
 
         <!-- 2 post -->
         <section>
-            <p class="title">My second post</p>
+            <p class="title">Browser rendering different width size</p>
             <article>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt quisquam voluptates fuga, sapiente quod nemo eius, doloribus rerum esse hic, numquam error. Totam sint ducimus laborum consequatur illum nemo accusantium. </p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt quisquam voluptates fuga, sapiente quod nemo eius, doloribus rerum esse hic, numquam error. Totam sint ducimus laborum consequatur illum nemo accusantium. </p>
@@ -48,14 +63,88 @@
 
         <!-- 3rd post -->
         <section>
-            <p class="title">My third post</p>
+            <p class="title">Changes that came with CSS3</p>
             <article>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt quisquam voluptates fuga, sapiente quod nemo eius, doloribus rerum esse hic, numquam error. Totam sint ducimus laborum consequatur illum nemo accusantium. </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt quisquam voluptates fuga, sapiente quod nemo eius, doloribus rerum esse hic, numquam error. Totam sint ducimus laborum consequatur illum nemo accusantium. </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt quisquam voluptates fuga, sapiente quod nemo eius, doloribus rerum esse hic, numquam error. Totam sint ducimus laborum consequatur illum nemo accusantium. </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt quisquam voluptates fuga, sapiente quod nemo eius, doloribus rerum esse hic, numquam error. Totam sint ducimus laborum consequatur illum nemo accusantium. </p>
+                <p>The biggest difference between CSS2 and CSS3 is that CSS3 has been split into different sections, called modules. Each of these modules is making its way through the W3C in various stages of the recommendation process. This process has
+                    made it much easier for various pieces of CSS3 to be accepted and implemented in the browser by different manufacturers.</p>
+                <h4>CSS 3 Selectors</h4>
+                <p>CSS3 offers several new ways to write CSS rules with new CSS selectors, as well as a new combinatory, and some new pseudo-elements. </p>
+                <ul class="listClass">
+                    <li>Attributes beginning matches exactly: element[foo^=”bar”] The element has an attribute called foo that begins with “bar”. </li>
+                    <li>Attributes ending matches exactly: element[foo$=”bar”] The element has an attribute called foo that ends with “bar”.</li>
+                    <li>Attribute contains the match: element[foo*=”bar”] The element has an attribute called foo that contains string “bar”.</li>
+                </ul>
+                <p>There have been 16 new pseudo-classes that have been introduced </p>
+                <ul class="listClass">
+                    <li>:root – root element of the document</li>
+                    <li>:nth-child(n) – Use to match exact child elements counting up from the last one </li>
+                    <li>:nth-last-child(n) – Match exact child elements counting up from the last one.</li>
+                    <li>:nth-of-type(n) – Match sibling elements with the same name before it in the document tree</li>
+                    <li>:nth-last-of-type(n) – Match sibling elements with the same name counting up from the bottom.</li>
+                    <li>:last-child – Match the last child element of the parent.</li>
+                    <li>:last-child – Match the last child element of the parent.</li>
+                    <li>:first-of-type – Match the first sibling element of that type.</li>
+                    <li>:last-of-type – Match the last sibling element of that type.</li>
+                    <li>:only-child – Match the element that is the only child of its parent</li>
+                    <li>o :only-of-type - Match the last element of that type.</li>
+                    <li>:empty – Match the element that has no children (include text nodes).</li>
+                    <li>:target – Match an element that is the target of the referring URL</li>
+                    <li>:enabled – Match the element when it’s enabled </li>
+                    <li>:disabled – Match the element when it’s disabled </li>
+                    <li>:not(s) – Match when the element does not match the simple selectors</li>
+                </ul>
+                <h4>New properties </h4>
+                <p>CSS3 also introduced several new CSS properties. Many of these properties create visual styles that would likely associate more with a graphics program like Photoshop. Some of these, like border-radius or box-shadow, have been around since
+                    the introduction of CSS3. Others, like flexbox or even CSS Grid, are newer styles that are still often considered CSS3 additions.</p>
+                <p>In CSS3, the box model hasn't changed. But there are a bunch of new style properties that can help you style the backgrounds and borders of your boxes. </p>
+                <h4>Multiple Background images</h4>
+                <p>Using the background-image, background-position, and background-repeat styles, you can specify multiple background images to be layered on top of one another in the box. The first image is the layer closest to the user, with the following
+                    ones painted behind. If there is a background color, it is painted below all the image layers.</p>
+                <h4>New background style properties </h4>
+                <p>There are some new background properties in CSS3</p>
+                <ul class="listClass">
+                    <li>Background-clip - This property defines how the background image should be clipped. The default is the border box, but it can be changed to the padding box or the content box.</li>
+                    <li>Background-origin - This property determines whether the background should be placed in the padding box, the border box, or the content box.</li>
+                    <li>Background-size – This property indicates the size of the background image. It allows you to stretch smaller images to fit the page.</li>
+                </ul>
+                <h4>Changes to existing background style properties </h4>
+                <p>There are also a few changes to existing background style properties</p>
+                <ul class="listClass">
+                    <li>Background-repeat – There are two new values for this property-space and round. Space spaces the tiles image evenly within the box without being clipped. Round rescales the background image so that it will tile a whole number of times
+                        in the box.</li>
+                    <li>Background-attachment – A new value “local” is added so that the background will scroll with the element’s content when that element has a scroll bar.</li>
+                    <li>Background – the background shorthand property adds in the size and origin properties. </li>
+                </ul>
+                <h4>CSS3 Border properties</h4>
+                <p>In CSS3, borders can be the style we’re used to (solid, double, dashed, etc.) or they can be an image. Plus, CSS3 supports rounded corners. Border images are interesting because you create an image of all four borders and then tell the
+                    CSS how to apply that image to your borders. </p>
+                <h4>New Border style properties</h4>
+                <p>There are some new border properties in CSS3:</p>
+                <ul class="listClass">
+                    <li>Border-radius – border –top-right-radius, border bottom-right-radius, border-bottom-left-radius, border-top-left-radius. These properties allow you to create rounded corners on your borders. </li>
+                    <li>Border-image-source – Specify the image source file to be used instead of border styles already defined </li>
+                    <li>Border-image-slice – Represents the inward offsets from the border image edges. </li>
+                    <li>Border-image-width – Defines the value of the width for your border image.</li>
+                    <li>Border-image-outset – specify the amount that the border image area extends beyond the search box. </li>
+                    <li>Border-image-stretch – Defines how the sides and middle parts of the border image should be tilted or scaled.</li>
+                    <li>Border-image – the shorthand property for all the border image properties. </li>
+                </ul>
+                <h4>More features in CSS3 that aren’t included in CSS2 </h4>
+                <p>There are lots of additional features in CSS3 that didn’t exist in CSS2, including: </p>
+                <ul class="listClass">
+                    <li>• CSS template layout module and CSS3 Grid positioning module: Creating grids with CSS. </li>
+                    <li>• CSS3 color module: Now with opacity</li>
+                    <li>• CSS3 Text module: Outline text and even create drop-shadows with CSS. </li>
+                    <li>• Changes to the box model: Including a marquee property that acts like the IE tag.</li>
+                    <li>• CSS3 user interface module: Giving you new cursors, responses to actions, required fields, and even resizing elements.</li>
+                    <li>• Media Queries: Media queries allow you more flexibility when defining how a style sheet should be used. For instance, you could define a style sheet that is only for handheld devices that a viewport larger than 20em.</li>
+                    <li>• CSS3 Ruby module: Provides support for languages that use textual ruby to annotate documents.</li>
+                    <li>• CSS3 paged Media module: For even more support for paged media (paper, transparencies, etc).</li>
+                    <li>• Generated content: Running headers and footers, footnotes, and other content that is generated programmatically, especially for paged media.</li>
+                    <li>• CSS3 Speech module: changes to aural CSS.</li>
+                </ul>
             </article>
-            <p class="date">March 30, 2020 : 4:00PM</p>
+            <p class="date">March 20, 2020 : 12:23PM</p>
         </section>
     </div>
 </body>
