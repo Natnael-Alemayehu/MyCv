@@ -12,8 +12,7 @@ body {
 
 section {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 15px 30px;
-    margin: 50px;
+    margin: 10px;
     /* border: solid 1px; */
 }
 
@@ -49,24 +48,6 @@ nav>ul>li {
 
 /* The style for the navigation */
 
-.ulClass {
-    list-style-type: none;
-    margin: 0 auto;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-
-/* .liOne {
-    float: left;
-    border-right: 2px solid #bbb;
-}
-
-.liOne:last-child {
-    border-right: none;
-} */
-
 .liOne a {
     display: block;
     color: white;
@@ -85,6 +66,26 @@ nav {
     list-style: none;
     position: relative;
 }
+
+.ulClass {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* .liOne {
+    float: left;
+    border-right: 2px solid #bbb;
+}
+
+.liOne:last-child {
+    border-right: none;
+} */
 
 
 /* Styling for a better use of the blog */
@@ -108,10 +109,11 @@ ol {
         background-color: #333;
         display: flex;
         justify-content: center;
+        flex-direction: unset;
     }
     section {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         padding: 15px 30px;
-        margin: 20px;
+        margin: 40px;
     }
 }
